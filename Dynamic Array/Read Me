@@ -1,0 +1,3 @@
+#Read Me
+A dynamic array is very similar to a static array except that, as it's name suggests, it is more dynamic. All this means is that it can have elements added into it, and removed from it. 
+When adding or removing an element, by default, the last element is removed (or an element is added at the end of the array). However, we can code functions which add or remove elements at a given index of the array. 
