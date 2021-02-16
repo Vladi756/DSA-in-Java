@@ -1,14 +1,14 @@
 public class Singly_Linked_List {  
-	Node head;  										// Creates start of list (head)  
+	Node head;  								// Creates start of list (head)  
  
  	static class Node {  
  		int data;  
-        Node next;  
-        Node(int d) { 
-        	data = d;  
-        	next = null;								// Node contains data and pointer to next node  
-        }  
-     }  
+        	Node next;  
+        	Node(int d) { 
+        		data = d;  
+        		next = null;						// Node contains data and pointer to next node  
+        	}  
+     	}  
  	
     /*--- This function prints contents of the linked list starting from head ---*/  
  	
@@ -30,7 +30,7 @@ public class Singly_Linked_List {
      Node third = new Node(300);						// Assigning each node with data 
      
      list.head.next = second; 					
-     second.next = third; 								// Linking nodes one to the other  
+     second.next = third; 							// Linking nodes one to the other  
      list.display();  
      }  
 }  
